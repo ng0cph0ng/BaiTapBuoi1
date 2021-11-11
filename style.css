@@ -1,0 +1,55 @@
+#bluebox{
+    height: 75px;
+    width: 350px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(152, 177, 230);
+    padding: 6px;
+    font-size: 50px;
+}
+
+h1{
+    height: 70px;
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+}
+h1 strong{
+    color: rgb(60, 139, 243);
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 520;
+    width: 2000px;
+}
+.button__list {
+    text-align: center;
+}
+.button__list li {
+    display: inline-block;
+    margin: 10px 12px;
+    padding: 6px;
+}
+.button__list li a {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 6px;
+}
